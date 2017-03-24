@@ -1,0 +1,56 @@
+<html>
+<html lang="en">
+<head>
+<title>Arduino Tutorial</title>
+<link rel="stylesheet" href="css/custom.css">
+<style>
+#if-location {
+position: absolute; left: 10px; top:200px;
+width:800px;
+height 500px;
+}
+</style>
+</head>
+<body>
+&nbsp;This will ba a tutorial on Arduino. We will start with where you download it, and end when you make a full loop on a circle Neo Pixel.<br />
+&nbsp;1. The first thing that you will need to do is install arduino itself. Go to https://www.arduino.cc/en/main/software and download the apporite version for your computer.<br />
+&nbsp;2. Once downloaded, open up the program and we will start with basic commands.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;a. To understand some of these commands, here some basic understandings of what they mean<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. void setup(): This is the most basic part of any Arduino code. This allows the code to run in the first place.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. void loop(): This is the same as void setup(), but it allaows the code to repeat indefinauntly.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III. int: Found in most codes in general. Specifies what ever you want to be a integer; ex. int clearPix, int drawmatix, int readButtons.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IV. #define: This is used to set up the PIN number on the Neo Pixel and to tell how many pixels there are with NUMPIXELS.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V. Serial.begin: This just allow any serial commands to run in the first place<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VI. Serial.print(ln): This is used to print, as in run the code, out the commands that you have set in place. There will sometimes be a ln at the end of Serial.print, this just means it prints it in a list.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VII. for(): This makes any int values do a set command such as being a differnt color or being brighter than all others. ex. for(j = 0; j < 5 ; j++)<br />
+&nbsp;3. If this seems confusing at first, don't worry. It will all start to make sence as we continue on with the code.<br />
+&nbsp;4. We will now start off with doing the first part of making the circle.<br />
+<br />
+<br />
+
+&nbsp;To start off, I will give you the begining part of the code because this should be the set up for most people:<br />
+&nbsp;#include Adafruit_NeoPixel.h (A less than sign and a greater sign will be at the start and end of this respectivly, but this does work while writing this code) <br />
+&nbsp;#ifdef __AVR__<br />
+&nbsp;#include avr/power.h (A less than sign and a greater sign will be at the start and end of this respectivly, but this does work while writing this code)<br />
+&nbsp;#endif<br />
+&nbsp;#define PIN 6<br />
+&nbsp;#define NUM_LEDS 16<br />
+&nbsp;#define BRIGHTNESS 50<br />
+&nbsp;Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, PIN, NEO_GRBW + NEO_KHZ800);<br />
+&nbsp;void setup() {<br />
+&nbsp;Serial.begin(115200); (This is for Trinket 5V 16MHz, you can remove these three lines if you are not using a Trinket)<br />
+&nbsp;#if defined (__AVR_ATtiny85__)<br />
+&nbsp;if (F_CPU == 16000000) clock_prescale_set(clock_div_1);<br />
+&nbsp;#endif (End of trinket special code)<br />
+&nbsp;strip.setBrightness(BRIGHTNESS);<br />
+&nbsp;strip.begin();<br />
+&nbsp;strip.show(); // Initialize all pixels to 'off'<br />
+&nbsp;}<br />
+<br />
+&nbsp;After coyping and pasting this code into the arduino file, now we must set up our integers.<br />
+&nbsp;Arduino only has four colors that it can make; red, green, blue, and white. However, these are all the colors that you will need because you can make any color you want with these colors.<br />
+&nbsp;Go to this sight if you would like to find out what exact colors you need to have if you want get a certin color; http://web.stanford.edu/class/cs101/image-rgb-explorer.html<br />
+&nbsp;Now we must set up the varibles, and this part will determin how strong the colors actully will be throught the whole code. What I do is: int red = 100;  int green = 200; int blue = 50; int white = 0;<br />
+&nbsp;After setting that up
+</body>
+</html>

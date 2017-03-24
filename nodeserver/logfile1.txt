@@ -1,0 +1,6 @@
+Delta port 8080
+/
+/favicon.ico
+/nice
+/favicon.ico
+/Industry%20Standerd

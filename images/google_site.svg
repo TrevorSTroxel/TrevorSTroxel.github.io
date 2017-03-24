@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg3261"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="New document 13">
+  <defs
+     id="defs3263" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="375"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="984"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3266">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3073"
+       transform="matrix(1.2002294,0,0,1.2653415,68.514079,-313.973)">
+      <path
+         sodipodi:type="arc"
+         style="fill:#00ff00;fill-opacity:1;stroke:#0d0d2a;stroke-width:10.6960001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:40.54999828"
+         id="path3060"
+         sodipodi:cx="250"
+         sodipodi:cy="639.50507"
+         sodipodi:rx="215.71428"
+         sodipodi:ry="210"
+         d="m 465.71428,639.50507 c 0,115.97979 -96.57857,210 -215.71428,210 -119.13571,0 -215.714279,-94.02021 -215.714279,-210 0,-115.9798 96.578569,-210 215.714279,-210 119.13571,0 215.71428,94.0202 215.71428,210 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:102.16573334px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="323.46149"
+         y="473.74908"
+         id="text3062"
+         sodipodi:linespacing="125%"
+         transform="scale(0.76563512,1.3061052)"><tspan
+           sodipodi:role="line"
+           id="tspan3064"
+           x="323.46149"
+           y="473.74908">GOOGLE</tspan><tspan
+           id="tspan3071"
+           sodipodi:role="line"
+           x="323.46149"
+           y="601.45624">SITE</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+&nbsp;void half(int delayVal){<br />
+&nbsp;int j,r,g,b,w;<br />
+&nbsp;for(j = 0; j < 5 ; j++){<br />
+&nbsp;if (j % 2 == 0){r = 255; g = 100; b = 0;w = 10;}<br />
+&nbsp;if (j % 5 == 0){r = 0; g = 255; b = 0;w = 50;}<br />
+&nbsp;strip.setPixelColor(j, strip.Color(r,g,b,w ));<br />
+&nbsp;delay(delayVal);<br />
+&nbsp;strip.show();<br />      
+&nbsp;}<br />
+&nbsp;for(j = 6; j > 9 ; j++){<br />
+&nbsp;r = 0; g = 0; b = 255;w = 10;<br />
+&nbsp;if (j % 2 == 0){r = 255; g = 100; b = 0;w = 10;}<br /> 
+&nbsp;if (j % 5 == 0){r = 0; g = 255; b = 0;w = 50;} <br />
+&nbsp;strip.setPixelColor(j, strip.Color(r,g,b,w )); <br />
+&nbsp;delay(delayVal);<br />
+&nbsp;strip.show();         <br />
+&nbsp;}  <br />
+&nbsp;}<br />
+&nbsp;for(j = 10; j > 13 ; j++){<br />
+&nbsp;r = 0; g = 0; b = 255;w = 10;<br />
+&nbsp;if (j % 2 == 0){r = 255; g = 100; b = 0;w = 10;} <br />
+&nbsp;if (j % 5 == 0){r = 0; g = 255; b = 0;w = 50;} <br />
+&nbsp;strip.setPixelColor(j, strip.Color(r,g,b,w ));<br />
+&nbsp;delay(delayVal);<br />
+&nbsp;strip.show();<br />
+&nbsp;}  <br />
+&nbsp;}<br />
+&nbsp;for(j = 14; j > 16 ; j++){<br />
+&nbsp;r = 0; g = 0; b = 255;w = 10;<br />
+&nbsp;if (j % 2 == 0){r = 255; g = 100; b = 0;w = 10;} <br />
+&nbsp;if (j % 5 == 0){r = 0; g = 255; b = 0;w = 50;} <br />
+&nbsp;strip.setPixelColor(j, strip.Color(r,g,b,w ));<br />
+&nbsp;delay(delayVal);<br />
+&nbsp;strip.show(); <br />
+&nbsp;}  <br />
+&nbsp;}<br />

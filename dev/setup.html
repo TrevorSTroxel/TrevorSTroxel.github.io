@@ -1,0 +1,19 @@
+&nbsp;To start off, I will give you the begining part of the code because this should be the set up for most people:<br />
+&nbsp;#include Adafruit_NeoPixel.h (A less than sign and a greater sign will be at the start and end of this respectively, but this does work while writing this code) <br />
+&nbsp;#ifdef __AVR__<br />
+&nbsp;#include avr/power.h (A less than sign and a greater sign will be at the start and end of this respectively, but this does work while writing this code)<br />
+&nbsp;#endif<br />
+&nbsp;#define PIN 6<br />
+&nbsp;#define NUM_LEDS 16<br />
+&nbsp;#define BRIGHTNESS 50<br />
+&nbsp;Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, PIN, NEO_GRBW + NEO_KHZ800);<br />
+&nbsp;void setup() {<br />
+&nbsp;Serial.begin(115200); (This is for Trinket 5V 16MHz, you can remove these three lines if you are not using a Trinket)<br />
+&nbsp;#if defined (__AVR_ATtiny85__)<br />
+&nbsp;if (F_CPU == 16000000) clock_prescale_set(clock_div_1);<br />
+&nbsp;#endif (End of trinket special code)<br />
+&nbsp;strip.setBrightness(BRIGHTNESS);<br />
+&nbsp;strip.begin();<br />
+&nbsp;strip.show(); // Initialize all pixels to 'off'<br />
+&nbsp;}<br />
+<br />

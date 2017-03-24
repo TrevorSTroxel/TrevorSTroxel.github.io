@@ -1,0 +1,59 @@
+<html>
+<html lang="en">
+<head>
+<title>Arduino Tutorial</title>
+<link rel="stylesheet" href="css/custom.css">
+<style>
+#if-location {
+position: absolute; left: 10px; top:200px;
+width:800px;
+height 500px;
+}
+</style>
+</head>
+<body>
+&nbsp;This will be a tutorial on Arduino and NeoPixel. <br />
+<br />
+&nbsp;We will start with where you download it, and end when you make a full loop on a circle NeoPixel.<br />
+<br />
+&nbsp;1. The first thing that you will need to do is install the Arduino IDE software itself. Go to <a href="https://www.arduino.cc/en/main/software" class = "menu" target = " blank4">https://www.arduino.cc/en/main/software</a> and download the appropriate version for your computer. <br?>
+<br />
+<br />
+&nbsp;2. After that you need to go and buy a NeoPixel from <a href="https://www.adafruit.com/category/168 " class = "menu" target = " blank6">https://www.adafruit.com/category/168 </a> and download the NeoPixel library from this link <a href="https://github.com/adafruit/Adafruit_NeoPixel" class = "menu" target = " blank5">https://github.com/adafruit/Adafruit_NeoPixel.</a><br />
+<br />
+&nbsp;3. Once downloaded, open up the program and we will start with basic commands.<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;a. If you want to understand some of these commands, here is a link to what they mean <a href="list_of_commands.html" class = "slink" target = " blank">here.</a><br />
+<br />
+&nbsp;4. If this seems confusing at first, don't worry. It will all start to make sense as we continue on with the code.<br />
+<br />
+&nbsp;5. We will now start off with doing the first part of making the circle.<br />
+<br />
+&nbsp;For this next part i will give you the code because this is extremely complicated to explain, but I will explain this in a more detail and expansive explanation. For now however, here is the <a href="setup.html" class = "slink" target = " blank2">code.</a><br />
+<br />
+&nbsp;After copying and pasting this code into the arduino file, now we must initialize our integers.<br />
+<br />
+&nbsp;Arduino only has four colors that it can make; red, green, blue, and white. However, these are all the colors that you will need because you can make any color you want with these colors.<br />
+<br />
+&nbsp;Go to this site if you would like to find out what exact numbers you need to have if you want get a certain color; <a href="http://web.stanford.edu/class/cs101/image-rgb-explorer.html" class = "menu" target = " blank">http://web.stanford.edu/class/cs101/image-rgb-explorer.html.</a><br />
+<br />
+&nbsp;Now we must set up the variables, and this part will determine how strong the colors actually will be throughout the whole code. What I do is: int red = 100;  int green = 200; int blue = 50; int white = 0;<br />
+<br />
+&nbsp;After setting that up then you need to set up a delay. You need to say that this integer is a d because the program will recognize that as delay.<br />
+<br />
+&nbsp;Then after that we now can start setting up the real code. First, start off by tying void loop() { <br />
+<br />
+&nbsp;After that we need to set up what each loop of the circle will do. To start off with, I would recommend doing the following; first loop: red = 255; green = 0; blue = 0; white = 0; d = 50; and then under this code type (red,green,blue,white,d);<br />
+<br />
+&nbsp;Then red = 0; green = 255; blue = 0; white = 0; d = 50; and then under this code type (red,green,blue,white,d);<br />
+<br />
+&nbsp;Then red = 0; green = 0; blue = 255; white = 0; d = 50; and then under this code type (red,green,blue,white,d);<br />
+<br />
+&nbsp;Then after that you can do what ever color scheme that you want, but this is just what I did as an example: red = 143; green = 223; blue = 98; white = 0; d = 50; and then under this you need to type   half(d); }<br />
+<br />
+&nbsp;<a href="setup2.html" class = "slink" target = " blank3">Here</a> is what you will need after that. This code allows the NeoPixel to spin in the circle that it is in and allows it to loop. There will be a link to more indepth and detailed explanation of why this code works later.
+<br />
+</body>
+</html>
+
+

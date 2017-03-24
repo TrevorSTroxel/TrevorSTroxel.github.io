@@ -1,0 +1,1 @@
+grant all privileges on stream.* TO 'tstgamer'@'localhost' IDENTIFIED BY 'Trevboss15'; 
