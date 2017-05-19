@@ -1,103 +1,103 @@
 Simple Commands:
 
-    rm -fR [insertname] = remove user
+    rm -fR [insertname] = remove user<br/>
 
-    pkill -9 -u [insertname] = kill a user
+    pkill -9 -u [insertname] = kill a user<br/>
 
-    user = check the users
+    user = check the users<br/>
 
-    ls = list of files
+    ls = list of files<br/>
 
-    nano = creates files
+    nano = creates files<br/>
 
-    ping = pings something
+    ping = pings something<br/>
 
-    clear = clear
+    clear = clear<br/>
 
-    pwd = outputs the name of the current working directory.
+    pwd = outputs the name of the current working directory.<br/>
 
-    cd = switches you into the directory you specify.
+    cd = switches you into the directory you specify.<br/>
 
-    mkdir = creates a new directory in the working directory.
+    mkdir = creates a new directory in the working directory.<br/>
 
-    touch = creates a new file inside the working directory.
+    touch = creates a new file inside the working directory.<br/>
 
-    -a = modifies the behavior of the ls command to also list the files and directories starting with a dot (.). Files started with a dot are hidden, and don't appear when using ls alone.
+    -a = modifies the behavior of the ls command to also list the files and directories starting with a dot (.). Files started with a dot are hidden, and don't appear when using ls alone.<br/>
 
-    -t = option orders files and directories by the time they were last modified.
+    -t = option orders files and directories by the time they were last modified.<br/>
 
-    > = redirects standard output of a command to a file, overwriting previous content.
+    > = redirects standard output of a command to a file, overwriting previous content.<br/>
 
-    >> = redirects standard output of a command to a file, appending new content to old content.
+    >> = redirects standard output of a command to a file, appending new content to old content.<br/>
 
-    < = redirects standard input to a command.
+    < = redirects standard input to a command.<br/>
 
-    | = redirects standard output of a command to another command.
+    | = redirects standard output of a command to another command.<br/>
 
-    sort = sorts lines of text alphabetically.
+    sort = sorts lines of text alphabetically.<br/>
 
-    uniq = filters duplicate, adjacent lines of text.
+    uniq = filters duplicate, adjacent lines of text.<br/>
 
-    grep = searches for a text pattern and outputs it.
+    grep = searches for a text pattern and outputs it.<br/>
 
-    sed = searches for a text pattern, modifies it, and outputs it.
+    sed = searches for a text pattern, modifies it, and outputs it.<br/>
 
-    export VARIABLE="Value" = sets and exports an environment variable.
+    export VARIABLE="Value" = sets and exports an environment variable.<br/>
 
-    USER = is the name of the current user.
+    USER = is the name of the current user.<br/>
 
-    PS1 = is the command prompt.
+    PS1 = is the command prompt.<br/>
 
-    HOME = is the home directory. It is usually not customized.
+    HOME = is the home directory. It is usually not customized.<br/>
 
-    PATH = returns a colon separated list of file paths. It is customized in advanced cases.
+    PATH = returns a colon separated list of file paths. It is customized in advanced cases.<br/>
 
-    env = returns a list of environment variables.
+    env = returns a list of environment variables.<br/>
 
-    #systemctl start firewalld
+    #systemctl start firewalld<br/>
 
-    #systemctl stop firewalld
+    #systemctl stop firewalld<br/>
 
-    #systemctl restart firewalld
+    #systemctl restart firewalld<br/>
 
-Git:
+Git:<br/>
 
-    git init = creates a new Git repository
+    git init = creates a new Git repository<br/>
 
-    git status = inspects the contents of the working directory and staging area
+    git status = inspects the contents of the working directory and staging area<br/>
 
-    git add = adds files from the working directory to the staging area
+    git add = adds files from the working directory to the staging area<br/>
 
-    git diff = shows the difference between the working directory and the staging area
+    git diff = shows the difference between the working directory and the staging area<br/>
 
-    git commit = permanently stores file changes from the staging area in the repository
+    git commit = permanently stores file changes from the staging area in the repository<br/>
 
-    git log = shows a list of all previous commits
+    git log = shows a list of all previous commits<br/>
 
-    git checkout HEAD (filename) = Discards changes in the working directory.
+    git checkout HEAD (filename) = Discards changes in the working directory.<br/>
 
-    git reset HEAD (filename) = Unstages file changes in the staging area.
+    git reset HEAD (filename) = Unstages file changes in the staging area.<br/>
 
-    git reset SHA = Can be used to reset to a previous commit in your commit history.
+    git reset SHA = Can be used to reset to a previous commit in your commit history.<br/>
 
-    git add (filename_1) (filename_2) = add multiple files to the staging area with a single command
+    git add (filename_1) (filename_2) = add multiple files to the staging area with a single command<br/>
 
-    git branch = Lists all a Git project's branches.
+    git branch = Lists all a Git project's branches.<br/>
 
-    git branch (branch_name) = Creates a new branch.
+    git branch (branch_name) = Creates a new branch.<br/>
 
-    git checkout (branch_name) = Used to switch from one branch to another.
+    git checkout (branch_name) = Used to switch from one branch to another.<br/>
 
-    git merge (branch_name) = Used to join file changes from one branch to another.
+    git merge (branch_name) = Used to join file changes from one branch to another.<br/>
 
-    git branch -d (branch_name) = Deletes the branch specified.
+    git branch -d (branch_name) = Deletes the branch specified.<br/>
 
-    git clone = Creates a local copy of a remote.
+    git clone = Creates a local copy of a remote.<br/>
 
-    git remote -v = Lists a Git project's remotes.
+    git remote -v = Lists a Git project's remotes.<br/>
 
-    git fetch = Fetches work from the remote into the local copy.
+    git fetch = Fetches work from the remote into the local copy.<br/>
 
-    git merge origin/master = Merges origin/master into your local branch.
+    git merge origin/master = Merges origin/master into your local branch.<br/>
 
-    git push origin <branch_name> = Pushes a local branch to the origin remote.
+    git push origin <branch_name> = Pushes a local branch to the origin remote.<br/>
